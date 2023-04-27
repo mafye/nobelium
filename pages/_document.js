@@ -11,7 +11,7 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.lang}>
         <Head>
-          {BLOG.font && BLOG.font === 'serif'
+          {BLOG.font && BLOG.font === 'segoe UI'
             ? (
             <>
               <link
